@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-space-grotesk: "Space Grotesk", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-jetbrains-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  @apply bg-[#0B1120] text-[#E2E8F0] font-inter;
+}
+
